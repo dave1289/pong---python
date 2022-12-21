@@ -2,7 +2,7 @@ from turtle import Turtle
 
 
 class Paddle(Turtle):
-"""paddle turtle object for gameboard/player control
+"""paddle turtle object for gameboard/player control"""
 	def __init__(self, position):
 		super().__init__()
 		self.pu()
