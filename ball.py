@@ -1,7 +1,7 @@
 from turtle import Turtle
 
 
-
+#creating class for ball object
 class Ball(Turtle):
 
 	def __init__(self):
@@ -14,7 +14,7 @@ class Ball(Turtle):
 		self.y_move = 10
 		self.pace = 0.1
 
-
+# move takes x and y coords and adds the move attribute of the ball object
 	def move(self):
 		new_x = self.xcor() + self.x_move
 		new_y = self.ycor() + self.y_move
